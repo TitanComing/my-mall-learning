@@ -92,7 +92,6 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         return token;
     }
 
-
     @Override
     public List<UmsPermission> getPermissionList(Long adminId) {
         return adminRoleRelationDao.getPermissionList(adminId);
