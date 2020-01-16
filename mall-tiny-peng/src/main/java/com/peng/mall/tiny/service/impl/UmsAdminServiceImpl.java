@@ -26,7 +26,7 @@ import java.util.List;
 
 /**
  * UmsAdminService实现类
- * Created by macro on 2018/4/26.
+ * Created by peng on 2018/4/26.
  */
 @Service
 public class UmsAdminServiceImpl implements UmsAdminService {
@@ -91,6 +91,7 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         }
         return token;
     }
+
 
     @Override
     public List<UmsPermission> getPermissionList(Long adminId) {
