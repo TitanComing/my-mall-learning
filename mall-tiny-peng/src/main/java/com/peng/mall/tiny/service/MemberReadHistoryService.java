@@ -16,7 +16,7 @@ public interface MemberReadHistoryService {
     /**
      * 批量删除浏览记录
      */
-    int delete(List<String>ids);
+    int delete(List<String> ids);
     /**
      * 获取用户浏览历史记录
      */
